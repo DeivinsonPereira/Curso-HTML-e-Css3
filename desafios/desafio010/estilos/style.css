@@ -47,6 +47,12 @@ main{
     max-width: 800px;
     min-width: 400px;
     margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px black;
+    border-radius: 0px 0px 10px 10px;
+}
+main img{
+    width: 100%;
 }
 main h1 {
     color: var(--cor5);
@@ -59,4 +65,13 @@ main h2{
 footer{
     background-color: var(--cor5);
     color: white;
+    margin-top: 30px;
+}
+.pequena{
+    width: 50%;
+    display:block;
+    margin: auto;
+}
+.pequena2{
+    width: 50%;
 }
