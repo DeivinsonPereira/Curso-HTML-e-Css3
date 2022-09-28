@@ -76,3 +76,12 @@ div{
 iframe{
     margin: auto 30px auto 30px;
 }
+footer>p{
+    margin:0px;
+}
+footer{
+    background-color: #063D1E;
+    color: white;
+    text-align: center;
+    padding: 5px;
+}
