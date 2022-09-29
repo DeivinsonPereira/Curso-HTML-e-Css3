@@ -42,11 +42,19 @@ header>p{
     padding: 0px 0px 15px 0px;
         
 }
+header>nav{
+    padding-bottom: 20px;
+}
 header>nav>a{
     text-decoration: none;
     color: white;
     font-weight: bold;
     padding: 10px;    
+}
+header>nav>a:hover{
+    background-color: var(--cor1);
+    color: var(--cor5);
+    border-radius: 15px;
 }
 main{
     margin: auto auto 20px auto;
@@ -56,6 +64,22 @@ main{
     max-width: 800px;
     box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.377);
     border-radius: 0px 0px 10px 10px;
+}
+main strong{
+    color: var(--cor4);
+}
+main a{
+    color: var(--cor5);
+    font-weight: bold;
+    text-decoration: none;
+    background-color: var(--cor0);
+}
+main a:hover{
+    text-decoration: underline;
+    background-color: var(--cor2);
+}
+main a::after{
+    content: '\00A0\1f517';
 }
 article{
     padding: 12px;
@@ -102,6 +126,24 @@ picture>.irina{
    width: 90%;
    height: 90%;
 }
+
+aside{
+    background-color: var(--cor0);
+    border-radius: 20px;
+    padding: 10px;
+}
+aside h3{
+    background-color: var(--cor3);
+    color: white;
+    padding: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin:-10px;
+}
+aside ul{
+    columns: 2;
+    list-style-type: '\2714\00A0\00A0';
+}
 footer>p{
     margin:0px;
 }
@@ -110,4 +152,13 @@ footer{
     color: white;
     text-align: center;
     padding: 5px;
+}
+footer a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+footer a:hover{
+    text-decoration: underline;
+    color: #83e1ad;
 }
